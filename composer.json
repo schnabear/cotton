@@ -1,0 +1,21 @@
+{
+    "name": "schnabear/cotton",
+    "description": "Wow! So small! Much framework!",
+    "keywords": ["cotton", "framework", "wow"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/schnabear/cotton-core.git"
+        }
+    ],
+    "require": {
+        "schnabear/cotton-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
